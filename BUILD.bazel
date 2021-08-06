@@ -1,0 +1,11 @@
+alias(
+    name = "linux_amd64_binaries",
+    actual = "@postgres_linux_amd64_files//:all_files",
+    visibility = ["//visibility:public"],
+)
+
+alias(
+    name = "darwin_arm64_binaries",
+    actual = "@postgres_darwin_arm64_files//:all_files",
+    visibility = ["//visibility:public"],
+)
